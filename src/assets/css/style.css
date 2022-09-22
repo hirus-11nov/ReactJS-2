@@ -1,0 +1,56 @@
+.home {
+    background-image: url("../img/preview_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.thumb .glass {
+    top: 24%;
+    width: 55%;
+    left: 23%;
+}
+
+.col-6 {
+    padding: 0 107px;
+}
+
+.detail {
+    bottom: 0;
+    padding: 4px;
+    background: rgba(243, 93, 56, 0.4);
+}
+
+.detail p,
+.detail h4 {
+    margin: 0;
+}
+
+.detail h4 {
+    color: blue;
+}
+
+.detail p {
+    font-size: 14px;
+    color: white;
+}
+
+.thumb .glass,
+.detail {
+    display: none;
+}
+
+.glasses img {
+    cursor: pointer;
+}
