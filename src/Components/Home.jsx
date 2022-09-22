@@ -86,7 +86,7 @@ export default class Home extends Component {
     renderGlasses() {
         return dataGlasses.map((item) => {
             return (
-                <div className="col-2 d-flex align-items-center">
+                <div className="col-2 d-flex align-items-center" key={item.id}>
                     <img src={item.url} alt="" className='w-100' onClick={() => {
                         this.tryGlass(item)
                     }} />
